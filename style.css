@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800;900&family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #0D1F2D;
+    color: #F9FBF2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero, #about, #work {
+    height: 100vh;
+    width: 70vw;
+}
+
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: #EF3E36;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 3rem;
+    color: #F9FBF2;
+}
+
+h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #EF3E36;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #F9FBF2;
+    opacity: 0.7;
+    margin-right: 100px;
+}
+
+nav > a:hover {
+    opacity: 1.0;
+}
+
+button {
+    background-color: #0D1F2D;
+    border: 3px solid #EF3E36;
+    border-radius: 15px;
+    color: #EF3E36;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    position: relative;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #EF3E36;
+    color:#F9FBF2;
+}
+
+.hero-content {
+    width: 650px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sub {
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
