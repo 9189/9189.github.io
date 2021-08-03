@@ -96,11 +96,13 @@ button {
     font-size: 1.2rem;
     position: relative;
     margin: auto;
+    transition: all 0.2s ease-in-out;
 }
 
 button:hover {
     background-color: #ef3e36;
     color: #f9fbf2;
+    transform: scale(1.1);
 }
 
 .hero-content {
@@ -127,6 +129,12 @@ button:hover {
     height: 70vh;
     border-radius: 15px;
     transform: rotate(5deg);
+}
+
+#rezept-image {
+    width: 540px;
+    object-fit: contain;
+    transform: rotate(-5deg);
 }
 
 .work-content {
