@@ -27,7 +27,7 @@ section {
 #hero,
 #about,
 #work {
-    width: 70vw;
+    width: 80vw;
 }
 
 h1 {
@@ -87,6 +87,7 @@ nav > a:hover {
 }
 
 button {
+    cursor: pointer;
     background-color: #0d1f2d;
     border: 3px solid #ef3e36;
     border-radius: 15px;
@@ -94,7 +95,6 @@ button {
     width: 150px;
     height: 50px;
     font-size: 1.2rem;
-    position: relative;
     margin: auto;
     transition: all 0.2s ease-in-out;
 }
@@ -123,18 +123,40 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+#studybuddy {
+    position: relative;
+    top: -70px;
 }
 
 #studybuddy-image {
     height: 70vh;
-    border-radius: 15px;
-    transform: rotate(5deg);
+    transform: rotate(3deg);
+    position: relative;
+    left: -75px;
+}
+
+.horizontal-image {
+    width: 40vw;
+    object-fit: contain;
 }
 
 #rezept-image {
-    width: 540px;
-    object-fit: contain;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
+}
+
+#restaurant-image {
+    transform: rotate(3deg);
+}
+
+#php-image {
+    transform: rotate(-3deg);
 }
 
 .work-content {
@@ -146,6 +168,11 @@ button:hover {
 .work-p {
     width: 30vw;
     padding: 20px 0px 20px 0px;
+}
+
+.about-p {
+    padding-top: 20px;
+    width: 40vw;
 }
 
 .code-button {
