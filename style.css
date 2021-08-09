@@ -14,20 +14,8 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 section {
     height: 100vh;
-}
-
-#hero,
-#about,
-#work {
-    width: 80vw;
 }
 
 h1 {
@@ -63,6 +51,7 @@ h4 {
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
+    font-size: 1.2rem;
     color: #f9fbf2;
     opacity: 0.7;
 }
@@ -76,9 +65,10 @@ nav {
 }
 
 nav > a {
+    font-size: 1.1rem;
     text-decoration: none;
     color: #f9fbf2;
-    opacity: 0.7;
+    opacity: 0.6;
     margin-right: 100px;
 }
 
@@ -105,6 +95,18 @@ button:hover {
     transform: scale(1.1);
 }
 
+#hero,
+#about,
+#work {
+    width: 80vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-content {
     width: 650px;
     padding-top: 150px;
@@ -126,6 +128,10 @@ button:hover {
     align-items: center;
 }
 
+.odd {
+    flex-direction: row-reverse !important;
+}
+
 img {
     border-radius: 15px;
 }
@@ -136,7 +142,7 @@ img {
 }
 
 #studybuddy-image {
-    height: 70vh;
+    width: 18vw;
     transform: rotate(3deg);
     position: relative;
     left: -75px;
@@ -178,4 +184,27 @@ img {
 .code-button {
     margin-top: 30px;
     align-self: center;
+}
+
+#scroll-to-top-button {
+    position: fixed;
+    z-index: 99;
+    right: 50px;
+    bottom: 50px;
+    background-color: #f9fbf2;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #0d1f2d;
+    line-height: 41px;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.show-button {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
 }
