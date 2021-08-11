@@ -11,7 +11,9 @@
     --ff-up: "Cabin", sans-serif;
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     box-sizing: border-box;
 }
@@ -264,7 +266,7 @@ img {
         font-size: 4vw;
     }
 
-    button {
+    .primary-button {
         display: inline-block;
         width: auto;
         height: auto;
