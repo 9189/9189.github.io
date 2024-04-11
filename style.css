@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@800;900&family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
+/* TODO: clean-up remove duplicated unique styles from ids to classes */
+
 :root {
     --clr-primary-300: #ff463e;
     --clr-primary-900: #0d1f2d;
@@ -69,6 +71,10 @@ p {
     font-size: max(1.2vw, 18px);
     color: var(--clr-neutral-200);
     opacity: 0.7;
+}
+
+.sub {
+    opacity: 0.3;
 }
 
 nav {
