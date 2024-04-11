@@ -135,7 +135,7 @@ img {
 
 #hero,
 #about,
-#work {
+#projects {
     width: 90vw;
 }
 
@@ -177,30 +177,22 @@ img {
     flex-direction: row-reverse !important;
 }
 
+.rotate-right {
+    transform: rotate(3deg);
+}
+
+.rotate-left {
+    transform: rotate(-3deg);
+}
+
 #studybuddy {
     position: relative;
     top: -70px;
 }
 
-#studybuddy-image {
-    height: 70vh;
-    transform: rotate(3deg);
-    position: relative;
-    left: -75px;
-}
-
 .horizontal-image {
     width: 40vw;
     object-fit: contain;
-}
-
-#rezept-image,
-#php-image {
-    transform: rotate(-3deg);
-}
-
-#restaurant-image {
-    transform: rotate(3deg);
 }
 
 .work-content {
@@ -218,6 +210,10 @@ img {
     margin: 10vh 0vh 10vh 0vh;
     width: 40vw;
     align-self: center;
+}
+
+.about-p > p {
+    margin-top: 1rem;
 }
 
 .code-button {

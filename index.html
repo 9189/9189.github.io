@@ -1,179 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta
             name="viewport"
             content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=5.0"
-        />
+    />
 
-        <meta
+    <meta
             name="description"
             content="Technology enthusiast specialized in web development born in 1998, based in Vienna, Austria. Always
         looking for new ideas and technologies to make them happen. Passionate about
         development and design."
-        />
+    />
 
-        <link rel="stylesheet" href="style.css" />
-        <title>Joe Martin</title>
-    </head>
-    <body>
-        <nav>
-            <a href="#about">about?</a>
-            <a href="#work">work!</a>
-        </nav>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Joe Martin</title>
+</head>
+<body>
+<nav>
+    <a href="#about">about?</a>
+    <a href="#projects">projects!</a>
+</nav>
 
-        <button id="scroll-to-top-button">^</button>
+<button id="scroll-to-top-button">^</button>
 
-        <div id="content">
-            <section id="hero">
-                <div id="hero-content">
-                    <h1>hey I'm joe,</h1>
-                    <h2 id="sub">I like web development.</h2>
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/joe-m-47471b216" target="_blank"
-                        id="contact-button"
-                        class="primary-button"
-                        >contact me</a
-                    >
-                </div>
-            </section>
-
-            <section id="about">
-                <h3># about</h3>
-                <p class="about-p">
-                    I’m a technology enthusiast based in Vienna, Austria. Always looking for new
-                    ideas and technologies to make them come to life. I’m quite passionate about
-                    development and design. Working on full-stack projects gives me a great balance
-                    and is the perfect way to combine my passions into something productive. I
-                    personally think that versatility is key in staying up to date and gaining
-                    knowledge consistently. Which is why I tend to just “try it out”, that’s how I
-                    got here after all.
-                </p>
-            </section>
-
-            <section id="work">
-                <h3># work</h3>
-
-                <section id="studybuddy" class="work-wrapper odd">
-                    <img id="studybuddy-image" src="./media/studybuddy.png" alt="studybuddy-ui" />
-
-                    <div class="work-content">
-                        <h4>studybuddy</h4>
-                        <p class="work-p">
-                            My diploma project in which I was responsible for designing the user
-                            interface and the database as well as building the backend and single
-                            page application, basically the full full-stack experience.
-                        </p>
-
-                        <a
-                            href="https://github.com/9189/studybuddy"
-                            target="_blank"
-                            class="primary-button"
-                            >view code</a
-                        >
-                    </div>
-                </section>
-
-                <section id="rezept" class="work-wrapper">
-                    <img
-                        class="horizontal-image"
-                        id="rezept-image"
-                        src="./media/rezept.PNG"
-                        alt="rezept-ui"
-                    />
-
-                    <div class="work-content">
-                        <h4>recipe-tracker</h4>
-                        <p class="work-p">
-                            The final project I did for my software development course. A web
-                            application that lets you track all your recipes - your personal cook
-                            book you could say. My goal was to get involved further with JPA, hence
-                            why no SQL file was written.
-                        </p>
-
-                        <a
-                            href="https://github.com/9189/rezept-tracker"
-                            target="_blank"
-                            class="primary-button"
-                            >view code</a
-                        >
-                    </div>
-                </section>
-
-                <section id="restaurant" class="work-wrapper odd">
-                    <img
-                        class="horizontal-image"
-                        id="restaurant-image"
-                        src="./media/restaurant.PNG"
-                        alt="restaurant-ui"
-                    />
-                    <div class="work-content">
-                        <h4>restaurant-demo</h4>
-                        <p class="work-p">
-                            This demo of a restaurant website was one of my first projects utilizing
-                            bootstrap. Designed with a bright color-scheme in mind and implemented
-                            with the goal of full responsiveness.
-                        </p>
-
-                        <a
-                            href="https://github.com/9189/restaurant-example"
-                            target="_blank"
-                            class="primary-button"
-                            >view code</a
-                        >
-                    </div>
-                </section>
-
-                <section id="php" class="work-wrapper">
-                    <img
-                        class="horizontal-image"
-                        id="php-image"
-                        src="./media/php.PNG"
-                        alt="auth-ui"
-                    />
-
-                    <div class="work-content">
-                        <h4>auth-system</h4>
-                        <p class="work-p">
-                            After learning PHP basics, I was intrigued to find out what I'd be able
-                            to create. I decided to build a session based authentication system.
-                            This project got me a understanding of what it means to tackle security
-                            issues and following best practices.
-                        </p>
-
-                        <a
-                            href="https://github.com/9189/php-session-auth"
-                            target="_blank"
-                            class="primary-button"
-                            >view code</a
-                        >
-                    </div>
-                </section>
-            </section>
+<div id="content">
+    <section id="hero">
+        <div id="hero-content">
+            <h1>hey I'm joe,</h1>
+            <h2 id="sub">I craft satisfying web products.</h2>
         </div>
+        <div>
+            <a href="https://www.linkedin.com/in/joe-m-47471b216" target="_blank"
+               id="contact-button"
+               class="primary-button"
+            >contact me</a
+            >
+        </div>
+    </section>
 
-        <script>
-            const scrollButton = document.getElementById("scroll-to-top-button");
-            const rootElement = document.documentElement;
+    <section id="about">
+        <h3># about</h3>
+        <div class="about-p">
+            <p>
+                I’m an enthusiastic developer with a soft spot for software design, clean code, design & AI related
+                topics
+                based in Vienna, Austria. I'm always looking for new ideas and fun technologies to make amazing Products
+                come to life. I consider myself a generalist, a jack of all trades and master of none.
+                The perfect setup to be dedicated to the art of product development.
+            </p>
+            <p>
+                Working on full-stack projects gives me a great balance and is the perfect way to combine my
+                diverse passions into something productive.
+                To me versatility is key in staying excited and up to date, gaining knowledge consistently.
+                Which is why I tend to just “try it out”, that’s how I got into this career after all.
+            </p>
+        </div>
+    </section>
 
-            window.onscroll = () => {
-                const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+    <section id="projects">
+        <h3># projects</h3>
 
-                if (rootElement.scrollTop / scrollTotal > 0.4) {
-                    scrollButton.classList.add("show-button");
-                } else {
-                    scrollButton.classList.remove("show-button");
-                }
-            };
+        <section class="work-wrapper even">
+            <img class="rotate-left horizontal-image" src="./media/studybuddy.png" alt="studybuddy-ui"/>
 
-            scrollButton.onclick = () => {
-                rootElement.scrollTo({
-                    top: 0,
-                });
-            };
-        </script>
-    </body>
+            <div class="work-content">
+                <h4>studybuddy</h4>
+                <p class="work-p">
+                    My diploma project in which I was responsible for designing the user
+                    interface and the database as well as building the backend and single
+                    page application, basically the full full-stack experience.
+                </p>
+
+                <a
+                        href="https://github.com/9189/studybuddy"
+                        target="_blank"
+                        class="primary-button"
+                >view code</a
+                >
+            </div>
+        </section>
+
+        <section id="studybuddy" class="work-wrapper odd">
+            <img class="rotate-right" src="./media/studybuddy.png" alt="studybuddy-ui"/>
+
+            <div class="work-content">
+                <h4>studybuddy</h4>
+                <p class="work-p">
+                    My diploma project in which I was responsible for designing the user
+                    interface and the database as well as building the backend and single
+                    page application, basically the full full-stack experience.
+                </p>
+
+                <a href="https://github.com/9189/studybuddy"
+                   target="_blank"
+                   class="primary-button">view code
+                </a>
+            </div>
+        </section>
+
+        <section id="rezept" class="work-wrapper">
+            <img
+                    class="horizontal-image rotate-left"
+                    src="./media/rezept.PNG"
+                    alt="rezept-ui"
+            />
+
+            <div class="work-content">
+                <h4>recipe-tracker</h4>
+                <p class="work-p">
+                    The final project I did for my software development course. A web
+                    application that lets you track all your recipes - your personal cook
+                    book you could say. My goal was to get involved further with JPA, hence
+                    why no SQL file was written.
+                </p>
+
+                <a
+                        href="https://github.com/9189/rezept-tracker"
+                        target="_blank"
+                        class="primary-button"
+                >view code</a
+                >
+            </div>
+        </section>
+
+        <section id="restaurant" class="work-wrapper odd">
+            <img
+                    class="horizontal-image rotate-right"
+                    src="./media/restaurant.PNG"
+                    alt="restaurant-ui"
+            />
+            <div class="work-content">
+                <h4>restaurant-demo</h4>
+                <p class="work-p">
+                    This demo of a restaurant website was one of my first projects utilizing
+                    bootstrap. Designed with a bright color-scheme in mind and implemented
+                    with the goal of full responsiveness.
+                </p>
+
+                <a
+                        href="https://github.com/9189/restaurant-example"
+                        target="_blank"
+                        class="primary-button"
+                >view code</a
+                >
+            </div>
+        </section>
+
+        <section id="php" class="work-wrapper">
+            <img
+                    class="horizontal-image rotate-left"
+                    src="./media/php.PNG"
+                    alt="auth-ui"
+            />
+
+            <div class="work-content">
+                <h4>auth-system</h4>
+                <p class="work-p">
+                    After learning PHP basics, I was intrigued to find out what I'd be able
+                    to create. I decided to build a session based authentication system.
+                    This project got me a understanding of what it means to tackle security
+                    issues and following best practices.
+                </p>
+
+                <a
+                        href="https://github.com/9189/php-session-auth"
+                        target="_blank"
+                        class="primary-button"
+                >view code</a
+                >
+            </div>
+        </section>
+    </section>
+</div>
+
+<script>
+  const scrollButton = document.getElementById("scroll-to-top-button");
+  const rootElement = document.documentElement;
+
+  window.onscroll = () => {
+    const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+
+    if (rootElement.scrollTop / scrollTotal > 0.4) {
+      scrollButton.classList.add("show-button");
+    } else {
+      scrollButton.classList.remove("show-button");
+    }
+  };
+
+  scrollButton.onclick = () => {
+    rootElement.scrollTo({
+      top: 0,
+    });
+  };
+</script>
+</body>
 </html>
